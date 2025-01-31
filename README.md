@@ -50,7 +50,7 @@ We welcome contributions! If you'd like to contribute to the project, follow the
 2. Clone your forked repository to your local machine:
    ```bash
    git clone https://github.com/adil601/Pixel-Gallery.git
-
+---
    ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
