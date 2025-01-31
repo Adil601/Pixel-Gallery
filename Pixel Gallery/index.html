@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel  Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pixel Gallery</h1>
+            <button id="themeToggle" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
+        </header>
+
+        <div class="search-bar">
+            <input type="text" id="searchQuery" placeholder="Enter keyword (e.g., nature)">
+            <button id="fetchBtn" title="Search Images"><i class="fas fa-search"></i> Search</button>
+        </div>
+
+        <div id="loading" class="loading">Loading...</div>
+
+        <h2>Results:</h2>
+        <div id="imageContainer" class="image-grid"></div>
+
+        <h2>⭐ Favorites:</h2>
+        <div id="favoritesContainer" class="favorites-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
