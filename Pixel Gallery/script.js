@@ -1,4 +1,4 @@
-const accessKey = 'EPaacMtQG6dZ1ONOoHHUIDk2i_XCRVFM2BUD_9jEHwU'; 
+const accessKey = 'ENTER_YOUR_API_KEY_HERE'; 
 
 document.getElementById("fetchBtn").addEventListener("click", fetchImages);
 document.getElementById("themeToggle").addEventListener("click", toggleTheme);
