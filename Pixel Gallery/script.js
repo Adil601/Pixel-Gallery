@@ -1,4 +1,4 @@
-const accessKey = 'EPaacMtQG6dZ1ONOoHHUIDk2i_XCRVFM2BUD_9jEHwU'; 
+const accessKey = 'lJpGIDr4nCvR-RQk3Rm8a-8mM6iZXM0c__qmg2jqWGo'; 
 
 document.getElementById("fetchBtn").addEventListener("click", fetchImages);
 document.getElementById("themeToggle").addEventListener("click", toggleTheme);
